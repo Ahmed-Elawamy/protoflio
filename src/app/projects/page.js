@@ -52,18 +52,28 @@ const projects = [
             "My Protoflio, It Contain MY Projects And Information OF Me, This Protoflio Clean UI  ",
         image: "/pro.png",
         tech: ["Next.JS", "Tailwend CSS"],
-        demoLink: "#",
-        codeLink: "#",
+        demoLink: "https://protoflio-alpha.vercel.app/contact",
+        codeLink: "https://github.com/Ahmed-Elawamy/protoflio",
     },
     {
         id: 5,
-        title: "King | Landing Page",
+        title: "ZKing - Landing Page",
         description:
             "Landing Page project finished in 2022, fully responsive with clean design and smooth navigation.",
         image: "/LandingPage.png",
         tech: ["HTML", "CSS"],
-        demoLink: "#",
-        codeLink: "#",
+        demoLink: "https://app.netlify.com/projects/king-template/",
+        codeLink: "https://app.netlify.com/projects/king-template/",
+    },
+    {
+        id: 6,
+        title: "Landing Page with Multiple Sections",
+        description:
+            "A responsive personal website showcasing articles, gallery, services, testimonials, team members, skills, pricing plans, and events. Built to practice modern UI layouts, sections organization, and interactive components using HTML, CSS, and JavaScript..",
+        image: "/last.png",
+        tech: ["HTML", "CSS"],
+        demoLink: "https://elawamy.netlify.app/",
+        codeLink: "https://elawamy.netlify.app/",
     },
 ];
 
