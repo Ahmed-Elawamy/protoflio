@@ -9,7 +9,8 @@ export default function HomePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-80px)]">
                 {/* ===== Left Content ===== */}
                 <AnimatedSection>
-                    <div className="flex flex-col gap-6 pt-24 lg:pt-0">
+                    {/* 33px 24px */}
+                    <div className="flex flex-col gap-6 pt-24 lg:pt-0 py-[33px] px-[24px]">
                         {/* Availability */}
                         <div
                             className="flex items-center gap-2 text-sm md:mt-2
@@ -73,10 +74,10 @@ export default function HomePage() {
                         {/* ===== Status Card ===== */}
                         <div className="absolute bottom-0 left-0 z-10">
                             <div
-                                className="relative -bottom-6 -left-6 flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800/90 p-4 backdrop-blur-sm shadow-xl animate-bounce"
+                                className=" relative -bottom-6 sm:-left-6 left-2/4 flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800/90 p-4 backdrop-blur-sm shadow-xl animate-bounce"
                                 style={{ animationDuration: "3s" }}
                             >
-                                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-500/20 text-green-500">
+                                <div className="flex h-10 w-10  items-center justify-center rounded-full bg-green-500/20 text-green-500">
                                     <span className="material-symbols-outlined">
                                         check_circle
                                     </span>
