@@ -67,7 +67,7 @@ const projects = [
     demoLink: "https://app.netlify.com/projects/king-template/",
     codeLink: "https://app.netlify.com/projects/king-template/",
   },
-  {
+  { 
     id: 6,
     title: "Landing Page with Multiple Sections",
     description:
